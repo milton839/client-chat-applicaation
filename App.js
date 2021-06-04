@@ -10,7 +10,7 @@ import HomeScreen from './Screens/HomeScreen';
 import AddChatScreen from './Screens/AddChatScreen';
 
 const Stack = createStackNavigator();
-//hello
+
 const globalScreenOptions = {
   headerStyle:{backgroundColor:'#2c6bed'},
   headerTitleStyle:{color:'white'},
