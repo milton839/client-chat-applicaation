@@ -1,3 +1,4 @@
 .client{
     border-bottom: 1px solid green;
+    max-width: 500px;
 }
