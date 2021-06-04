@@ -13,13 +13,22 @@ const CustomListItem = ({id, chatName, enterChat}) => {
             />
             <ListItem.Content>
                 <ListItem.Title style={{fontWeight:"800"}}>
-                    Client Chat
+                    Azizul Islam
                 </ListItem.Title>
                     <ListItem.Subtitle numberOfLines={1} ellipsizeMode="tail">
                         Hello! How are you?
                     </ListItem.Subtitle>
             </ListItem.Content>
+            <ListItem.Content>
+                <ListItem.Title style={{fontWeight:"800"}}>
+                    Rafi Genon
+                </ListItem.Title>
+                    <ListItem.Subtitle numberOfLines={1} ellipsizeMode="tail">
+                        I am fine and you?
+                    </ListItem.Subtitle>
+            </ListItem.Content>
         </ListItem>
+        
     )
 }
 

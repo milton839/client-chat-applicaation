@@ -18,7 +18,7 @@ const HomeScreen = ({navigation}) => {
             // headerStyle:{backgroundColor:"#fff"},
             // headerTitleStyle:{color:"black"},
             headerTintColor:"black",
-            headerLeft: ()=> {
+            headerLeft: ()=> (
                 <View style={{marginLeft:20}}>
                 <TouchableOpacity onPress={signOutUser} activeOpacity={0.5}>
                     <Avatar
@@ -27,7 +27,7 @@ const HomeScreen = ({navigation}) => {
                     />
                 </TouchableOpacity>
             </View>
-            },
+            ),
             headerRight: () => (
                 <View style={{
                     flexDirection:"row",
